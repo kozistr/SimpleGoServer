@@ -21,6 +21,7 @@ import (
 	"net/http" // For HTTP2
 )
 
+// SSL files are needed for HTTP2 connection
 var (
 	cert = "kozistr.cert"
 	key  = "kozistr.key"
